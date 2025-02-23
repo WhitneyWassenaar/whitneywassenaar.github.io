@@ -1,0 +1,38 @@
+/*HEADER*/
+header {
+    
+}
+
+nav ul {
+    list-style-type: none; 
+    background-color: #d3d4c0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float:right; 
+
+}
+nav li {
+     display: inline;
+}
+nav a {
+   text-decoration: none; 
+   
+}
+
+li a:hover {
+    background-color: black;
+}
+
+/*BODY*/
+body {
+    background-color: #e5d58c;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/*FOOTER*/
+footer {
+    background-color: #9b9c83;
+
+}
