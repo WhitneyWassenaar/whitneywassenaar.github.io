@@ -1,0 +1,28 @@
+
+body {
+    width:100%;
+}
+#introduction {
+    background-color: aqua;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom:50px;
+    
+}
+#about {
+    border: black solid 2px;
+    display: flex;
+    justify-content: row;
+    width:900px;
+    margin-left:auto;
+    margin-right: auto;
+    
+   
+}
+
+
+#info {
+    display: flex;
+    flex-direction: column;
+
+}
