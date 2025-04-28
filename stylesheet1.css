@@ -1,22 +1,57 @@
 
 body {
     width:100%;
+    margin:0;
+}
+
+#banner {
+    width: 100%;
+    
+    background-color: #377BA3A3;
+    
+}
+
+#banner img {
+    width:1500px;
+    height:500px;
+    object-fit:cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#introduction {
+    background-color:#A3A138;
 }
 #introduction {
-    background-color: aqua;
+    background-color: #00FFFF;
     width: 100%;
     padding-top: 50px;
     padding-bottom:50px;
-    
 }
+
 #about {
-    border: black solid 2px;
+    border: #000000  solid 2px;
     display: flex;
     justify-content: row;
     width:900px;
     margin-left:auto;
     margin-right: auto;
+    border-radius: 2em;
     
+   
+}
+
+#about img {
+    border-radius: 2em;
+    border:#4E4E35 solid
+}
+
+
+#info {
+   padding: 20px;
+   font-size: 20px;    
    
 }
 
@@ -24,5 +59,4 @@ body {
 #info {
     display: flex;
     flex-direction: column;
-
 }
