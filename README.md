@@ -1,4 +1,4 @@
 # Portfolio_Website
-My portfolio
+My portfolio website
 
 This will be my first portfolio site. I'm learning HTML and CSS

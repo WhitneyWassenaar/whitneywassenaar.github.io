@@ -19,20 +19,20 @@ body {
     margin-left: auto;
     margin-right: auto;
     
- 
- 
-    
-    
 }
+
 #introduction {
     background-color:#A3A138;
+}
+#introduction {
+    background-color: #00FFFF;
     width: 100%;
     padding-top: 50px;
     padding-bottom:50px;
-    
 }
+
 #about {
-    
+    border: #000000  solid 2px;
     display: flex;
     justify-content: row;
     width:900px;
@@ -51,6 +51,12 @@ body {
 
 #info {
    padding: 20px;
-   font-size: 20px;
+   font-size: 20px;    
+   
+}
 
+
+#info {
+    display: flex;
+    flex-direction: column;
 }
