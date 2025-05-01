@@ -1,62 +1,169 @@
 
+/*Basis*/
 body {
     width:100%;
     margin:0;
 }
 
+/*Start Navigatiemenu*/
+header {
+    background-color: #9CA971
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+}
+
+header a {
+    color:#3C4F62;
+    text-decoration: none;
+
+}
+
+header a:hover {
+    color: white;
+}
+
+header li {
+    font-size: 30px;
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+/*Einde Navigatiemenu*/
+
+
+
+/*Start van secties*/
+
+/*Start Banner*/
 #banner {
     width: 100%;
-    
     background-color: #377BA3A3;
     
 }
 
 #banner img {
     width:1500px;
-    height:500px;
+    height:200px;
     object-fit:cover;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto; 
 }
+/*Einde Banner*/
 
+/*Start Introductie*/
 #introduction {
-    background-color:#A3A138;
-}
-#introduction {
-    background-color: #00FFFF;
+    background-color:#e3e3e3;
     width: 100%;
     padding-top: 50px;
     padding-bottom:50px;
 }
-
 #about {
-    border: #000000  solid 2px;
     display: flex;
     justify-content: row;
     width:900px;
     margin-left:auto;
     margin-right: auto;
     border-radius: 2em;
-    
-   
+    /*border:black solid;*/
 }
 
 #about img {
     border-radius: 2em;
-    border:#4E4E35 solid
+    border:#4E4E35 solid ;
+    margin-top:auto;
+    margin-bottom:auto;
+
 }
 
 
 #info {
    padding: 20px;
-   font-size: 20px;    
-   
+   font-size: 20px;
+}
+/*Einde Introductie*/
+
+/*Start Gallery*/
+#recentwork{
+    background-color: #B9BF95;
+    padding-bottom: 20px;
+}
+#recentwerktext {
+    text-align: center;
+}
+#recentwerktext h2 {
+    margin: 0;
+    
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-#info {
+.column {
     display: flex;
     flex-direction: column;
+}
+
+.column img{
+    margin: 5px;
+    border-radius: 2em;
+    object-fit:cover;
+}
+
+/*Einde Gallery*/
+
+/*Start testsection*/
+#testsection {
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#e3e3e3;
+    width: 100%;
+
+  
+    
+
+}
+
+#sec1 {
+    width: 200px;
+    margin-right: 100px;
+}
+#sec2 {
+    width: 200px;
+}
+#sec3 {
+    width: 200px;
+    margin-right: 100px;
+    
+    
+    
+}
+
+#sec3 img{
+  width: 200px;
+
+    
+}
+
+/*Start Footer*/
+footer{
+    background-color: #807F66;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer p {
+    margin: 0;
 }
